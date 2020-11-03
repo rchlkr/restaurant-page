@@ -26,12 +26,13 @@ const populatePage = () => {
 
 	contentDiv.style.clear = "both";
 
-	contentDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0.3)";
 	contentDiv.style.position = "relative";
 	contentDiv.style.zIndex = "10";
 	contentDiv.style.height = "calc(100% - 2.3rem)";
 	contentDiv.style.marginBottom = "2rem";
+	infoDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0.5)";
 	infoDiv.style.paddingTop = "2.5rem";
+	infoDiv.style.paddingBottom = "1rem";
 	infoDiv.style.width = "100%";
 
 	header.style.fontFamily = "Staatliches";
@@ -64,7 +65,7 @@ const populatePage = () => {
 	tabDiv.appendChild(contactTab);
 
 	tabDiv.style.display = "inline-block";
-	tabDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0)";
+	tabDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0.5)";
 	tabDiv.style.zIndex = "20";
 	tabDiv.style.position = "fixed";
 	tabDiv.style.bottom = "0";

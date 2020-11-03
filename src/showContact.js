@@ -11,13 +11,12 @@ const showContact = () => {
 	contactDiv.id = "contactdiv";
 
 	contentDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0.6)";
+	infoDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0)";
 
 	contentDiv.style.zIndex = "10";
 	contentDiv.style.position = "relative";
 	infoDiv.style.top = "0";
 	infoDiv.style.paddingTop = "2.5rem";
-
-	//tabDiv.style.backgroundColor = "transparent";
 
 	contactDiv.style.display = "flex";
 	contactDiv.style.width = "100%";
@@ -40,6 +39,7 @@ const showContact = () => {
 	contactContent.innerHTML =
 		"location<br><p style=font-family:raleway;font-size:1.2rem>15 Shropshire Ln<br>Milbridge, ME 04658<br>(222) 214-3590</p><img src='../media/map.jpg'>";
 	let contactTab = document.getElementById("contact");
+	tabDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0)";
 	contactTab.style.backgroundColor = "hsla(0, 0%, 0%, 0.7)";
 	menuTab.style.backgroundColor = "hsla(0, 0%, 0%, 0)";
 };
