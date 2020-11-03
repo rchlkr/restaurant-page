@@ -7,9 +7,9 @@ const populatePage = () => {
 
 	document.body.style.backgroundImage =
 		"url('https://images.pexels.com/photos/2615407/pexels-photo-2615407.jpeg')";
-	document.body.style.backgroundSize = "100% 100%";
+	document.body.style.backgroundSize = "100% auto";
 	document.body.style.backgroundRepeat = "no-repeat";
-	document.body.style.backgroundPosition = "center";
+	document.body.style.backgroundPosition = "center bottom 30%";
 
 	const contentDiv = document.getElementById("content");
 	const infoDiv = document.createElement("div");
