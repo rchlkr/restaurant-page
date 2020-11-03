@@ -37,7 +37,7 @@ const showContact = () => {
 	contactContent.style.textAlign = "center";
 	contactContent.style.padding = "1rem 6rem 1rem 6rem";
 	contactContent.innerHTML =
-		"location<br><p style=font-family:raleway;font-size:1.2rem>15 Shropshire Ln<br>Milbridge, ME 04658<br>(222) 214-3590</p><img src='/media/map.jpg'>";
+		"location<br><p style=font-family:raleway;font-size:1.2rem>15 Shropshire Ln<br>Milbridge, ME 04658<br>(222) 214-3590</p><img src='media/map.jpg'>";
 	let contactTab = document.getElementById("contact");
 	tabDiv.style.backgroundColor = "hsla(0, 0%, 0%, 0)";
 	contactTab.style.backgroundColor = "hsla(0, 0%, 0%, 0.7)";
